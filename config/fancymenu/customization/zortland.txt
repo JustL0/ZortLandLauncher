@@ -1,0 +1,302 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = img/backgr.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 46
+  action = movebutton
+  y = 117
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 124
+  action = resizebutton
+  height = 124
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 336
+  action = movebutton
+  y = 103
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 152
+  action = resizebutton
+  height = 49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = img/ayar.png
+  backgroundnormal = img/ayar.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 336
+  action = movebutton
+  y = 213
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 152
+  action = resizebutton
+  height = 49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = img/quit.png
+  backgroundnormal = img/quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 47
+  action = movebutton
+  y = 117
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 124
+  action = resizebutton
+  height = 124
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = img/sp.png
+  backgroundnormal = img/sp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = a809b6f1-71b1-4dd9-835b-790da87bf21c1699091365165
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 298
+  action = deep_customization_element:title_screen_branding
+  actionid = 05f1aa65-c0a5-4fd5-92ec-fdfd0a06a5221699091365174
+  y = 498
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 4dda7997-3df1-4c36-9c4a-28cb885064e01699091365174
+  y = 520
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5772dbc3-7222-4bc9-a0ca-37e5ee282f521699091365175
+  y = 235
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b43764f4-67e1-4ab3-939d-4624dbdd39b41699091365175
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ecd5dc89-39a9-4a6d-9c17-3496d97df0a61699091365175
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  copy_client_player = false
+  slim = false
+  auto_skin = true
+  scale = 75
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/9b5b32b45307477f736c71c21295e6e8f03eab03ee75b2eea6425cac013708ed
+  showname = false
+  crouching = false
+  follow_mouse = true
+  x = 568
+  width = 45
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 5cb26739-be3a-4c81-8a6f-3ea672fcfc5f1699093106022
+  y = 111
+  playername = JustL
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = true
+  is_baby = false
+  height = 135
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://zortland.com.tr%btnaction_splitter_fm%
+  backgroundhovered = img/site.png
+  label = 
+  loopbackgroundanimations = true
+  x = 336
+  width = 152
+  action = addbutton
+  actionid = bd9069e5-d06d-4e8c-8549-c851f8b40e091699096466315
+  y = 158
+  backgroundnormal = img/site.png
+  height = 49
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver;play.zortland.com.tr%btnaction_splitter_fm%
+  backgroundhovered = img/connecttoserver.png
+  label = 
+  loopbackgroundanimations = true
+  x = 191
+  width = 124
+  action = addbutton
+  actionid = fe02f17e-4c4e-4124-b508-d486a83c0d8a1699097270652
+  y = 117
+  backgroundnormal = img/connecttoserver.png
+  height = 124
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.5
+  source =    Maded By JustL
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 818
+  width = 166
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3d98beaf-84a0-4b4c-be64-494c02a722151699098052402
+  y = 520
+  alignment = left
+  base_color = #a4645f
+  height = 40
+}
+
